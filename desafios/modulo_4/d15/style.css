@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    background: gray url(images/fundo-madeira.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 300px;
+    height: 500px;
+    background: url(images/frame-iphone.png) center center no-repeat fixed;
+    background-size: contain;
+}
+
+section > iframe {
+    position: relative;
+    top: 64px;
+    left: 43px;
+    width: 214px;
+    height: 376px;
+}
+
+section#redes-socias {
+    text-align: right;
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+
+img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    transform: translate(-5px, -5px);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6);
+    transition: transform 0.4s, border 0.1s;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a reproduzir aúdio no HTML5</p>
+    <audio src="midia/Anchors-Aweigh---Band-Only---The-U--S--Marine-Corps-Band.mp3" preload="auto" autoplay loop></audio>
+    <!-- MP3 WAV OGC-->
+    <audio preload="metadata" controls loop>
+        <source src="midia/music1.mp3" type="audio/mpeg">
+        <source src="midia/music2.wav" type="audio/wav">
+        <source src="midia/music1.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir o aúdio.<br>
+        <a href="C:\Users\Ruan Moraes\Documents\Projetos Git\HTML5 - CSS3 - CEV\estudos\html-css\ex011\midia">Clique aqui para fazer o download</a></p>
+    </audio>
+</body>
+</html>

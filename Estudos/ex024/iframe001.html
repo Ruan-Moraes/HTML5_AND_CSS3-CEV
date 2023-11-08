@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="lorem">
+    <title>Testando o uso de um iframe</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#curso {
+            background-color: aqua;
+            max-width: 1300px;
+            max-height: 500px;
+        }
+
+        #curso iframe{
+            width: 98vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <div id="curso">
+        <p>
+            Acessando o site do
+            <!-- Tamanho padrão 300x150 -->
+            <iframe src="https://www.cursoemvideo.com/" frameborder="1" scrolling="no"><a href="https://www.cursoemvideo.com/">Curso em vídeo</a></iframe>
+        
+            curso em vídeo para aprender a programar
+        </p>
+    </div>
+
+    <p>
+        O site do 
+
+        <iframe src="https://github.com/Ruan-Moraes" frameborder="0" width="400px"><a href="https://github.com/Ruan-Moraes" target="_blank">Github</a></iframe> 
+        
+        também é muito legal!
+    </p>
+</body>
+</html>

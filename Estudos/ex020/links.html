@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS 
+            # = id
+            . = class
+            : = classes
+            :: = elementos 
+            > = clildren
+         */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color:yellow;
+        }
+
+        a::after {
+            content: '\00A0\00A0\[Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Ruan-Moraes" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCRjEZbJsUdPtbFabbN03f4g" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do CursoemVideo</a></li>
+        <li><a href="https://coolors.co/ccdbdc-2d2a32-ddd92a-ba5a31-ee7b30" target="_blank">Site do colors</a></li>
+    </ul>
+</body>
+</html>

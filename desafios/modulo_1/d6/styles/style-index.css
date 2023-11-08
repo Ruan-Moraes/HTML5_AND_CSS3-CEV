@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: kaushanscript;
+    src: url(fonts/Kaushan_Script/KaushanScript-Regular.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F0BD65;
+    padding: 5px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: 'kaushanscript', monospace;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    color: #F0594D;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    padding: 6px 15px;
+    background-color: hsla(212, 85%, 60%, 0.6);
+    border-radius: 5px 5px 0px 0px;
+    text-decoration: none;
+    color: #F0BD65;
+}
+
+a:hover {
+    font-size: 1.2em;
+}
+
+main {
+    max-width: 1000px;
+    background-color: #71F0A7;
+    margin: auto;
+    padding: 10px 0px 10px 25px;
+    color: #F0594D;
+    font: normal 400 1em 'Roboto', sans-serif;
+}
+

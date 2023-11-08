@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /* 
+                // Medidas absolutas:
+                    cm, mm, in, px, pt, pc
+
+                // Medidas relativas:
+                    em, ex, rem, vw, vh, %
+
+                // Medidas recomendadas (w3c): 
+                    px, em
+
+            */
+            font-weight: normal;
+            font-weight: 400;
+            /* 
+                // Lighter, normal, bold, bolder
+                // 100 - 900 
+            */
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1{
+            /* 
+                shorthand font
+                - font-style > font-weight > font-size > font-family 
+                    font-family: 'Courier New', Courier, monospace;
+                    font-weight: bolder;
+                    font-size: 3em;
+                    font-style: italic;
+            */
+            font: italic bolder 3em 'Courier New', Courier, monospace;
+        }
+
+        h2 {
+            font: bold 2em arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quaerat neque error ex tempore maxime delectus temporibus, sapiente ipsa odit harum corrupti ratione illo nisi non ipsam commodi distinctio porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quas dolorem modi assumenda. Deserunt possimus, est eos perspiciatis blanditiis aperiam, tempore numquam beatae laborum doloribus consectetur ex recusandae, cumque aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit debitis magni velit. Itaque, consectetur. Mollitia, nihil explicabo? Velit labore laboriosam optio architecto. Accusamus eligendi soluta, harum magnam quis est.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt dolor labore atque architecto quisquam ut, temporibus fugit minima cupiditate culpa eaque alias! Accusamus quod illum excepturi, animi neque porro odio.</p>
+</body>
+</html>
